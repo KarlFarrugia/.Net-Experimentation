@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30001.183
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Karl.WebSite", "Karl.Website\Karl.WebSite.csproj", "{280D399F-B30C-4FF6-B4DF-BB0B34E3EFFA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP.Net Core 101", "ASP.Net Core 101", "{5EFE06DF-1B35-4A06-8912-0D4F3903FFA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Karl.WebSite", "ASP.Net Core\Karl.Website\Karl.WebSite.csproj", "{E62C1FC9-C211-4100-98D8-74007AB53703}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{280D399F-B30C-4FF6-B4DF-BB0B34E3EFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{280D399F-B30C-4FF6-B4DF-BB0B34E3EFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{280D399F-B30C-4FF6-B4DF-BB0B34E3EFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{280D399F-B30C-4FF6-B4DF-BB0B34E3EFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62C1FC9-C211-4100-98D8-74007AB53703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62C1FC9-C211-4100-98D8-74007AB53703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62C1FC9-C211-4100-98D8-74007AB53703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62C1FC9-C211-4100-98D8-74007AB53703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{280D399F-B30C-4FF6-B4DF-BB0B34E3EFFA} = {5EFE06DF-1B35-4A06-8912-0D4F3903FFA3}
+		{E62C1FC9-C211-4100-98D8-74007AB53703} = {5EFE06DF-1B35-4A06-8912-0D4F3903FFA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C0A3F5C5-5E3D-4C24-AD40-FA0342E1E346}
