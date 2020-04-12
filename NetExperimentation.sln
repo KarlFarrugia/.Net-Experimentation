@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP.Net Core 101", "ASP.Net
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Karl.WebSite", "ASP.Net Core\Karl.Website\Karl.WebSite.csproj", "{E62C1FC9-C211-4100-98D8-74007AB53703}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Net Core Application", ".Net Core Application", "{1F513B12-FFC7-492C-907C-78748DC0C61F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingApplication", "SortingApplication\SortingApplication.csproj", "{C0E56E44-9C05-453E-84D0-C95EFC340ED3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{E62C1FC9-C211-4100-98D8-74007AB53703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E62C1FC9-C211-4100-98D8-74007AB53703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E62C1FC9-C211-4100-98D8-74007AB53703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E56E44-9C05-453E-84D0-C95EFC340ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E56E44-9C05-453E-84D0-C95EFC340ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E56E44-9C05-453E-84D0-C95EFC340ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E56E44-9C05-453E-84D0-C95EFC340ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E62C1FC9-C211-4100-98D8-74007AB53703} = {5EFE06DF-1B35-4A06-8912-0D4F3903FFA3}
+		{C0E56E44-9C05-453E-84D0-C95EFC340ED3} = {1F513B12-FFC7-492C-907C-78748DC0C61F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C0A3F5C5-5E3D-4C24-AD40-FA0342E1E346}
